@@ -1,0 +1,154 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+*{
+    transition: 200ms;
+}
+.navbar-brand{
+    background-image: url(../img/logo.png);
+    width: 50px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.side-bar .list-group-item{
+    border: 0;
+    margin-bottom: 6px;
+    border-radius: 3px;
+}
+.side-bar .list-group-item.active{
+    background-color: #ea0c3c;
+}
+
+.article-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #afafaf;
+}
+.article-list:first-child{
+    padding-top: 0px;
+
+}
+.news-list img{
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.article-list .info .title{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+.article-list .info .title:hover{
+    color: #337ab7;
+}
+.article-list .info .author{
+    display: inline-block;
+}
+.article-list .info .author img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.jubao{
+    background: #f5f5f5;
+    padding: 20px 20px 40px 20px;
+    border-radius: 5px;
+}
+.jubao img{
+    display: block;
+    max-width: 100%;
+}
+.jubao .title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.right-bar-warp{
+    background: #f5f5f5;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.right-bar-warp-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.right-bar .list-group-item{
+    background: #f5f5f5;
+    border: none;
+}
+.right-bar .list-group-item:first-child{
+    border-radius: 0px;
+}
+.right-bar .list-group-item:hover{
+    background: #dbdbdb;
+    border: none;
+}
+.right-bar .list-group-item:hover > p{
+    color:#337ab7;
+}
+.right-bar .list-group-item span{
+    font-size: 14px;
+    font-weight: 100;
+    color: #888;
+}
+footer{
+    padding: 50px 0 20px 0;
+}
+
+
+
+/*详情页news.html/css*/
+.news-info{
+    padding: 30px 15px 20px 0;
+}
+.news-info .title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.news-info span{
+    font-size: 14px;
+    font-weight: 100;
+    color: #979797;
+}
+.info p{
+    color: #999;
+    font-size: 15px;
+}
+.info .banner img{
+    display:block;
+    width:100%;
+}
+
+.right-bar-warp .right-bar .abbr img{
+    width: 66px;
+    height: 66px;
+    display: block;
+}
+
+/*登陆页面*/
+.container-small{
+    max-width: 500px;
+}
+.container-small a{
+    color: #ea0c3c;
+}
+.container-small .btn-primary{
+    background-color: #ea0c3c;
+    border: none;
+}
+.container-small .btn-primary:hover{
+    background-color: #d50c37;
+    border: none;
+}
+
+
+/*注冊頁面*/
